@@ -1,0 +1,8 @@
+Running the app in development mode will show an interactive traceback and console in the browser when there is an error. To run in development mode, set the FLASK_ENV=development environment variable then use the flask run command (remember to point FLASK_APP to your app as well).
+
+For Linux, Mac, Linux Subsystem for Windows, Git Bash on Windows, etc.:
+For Windows CMD, use set instead of export:
+
+set FLASK_ENV=development
+
+then    flask run 
